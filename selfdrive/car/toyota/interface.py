@@ -160,7 +160,7 @@ class CarInterface(CarInterfaceBase):
         ret.lateralTuning.indi.timeConstantV = [2.0, 2.2]
         ret.lateralTuning.indi.actuatorEffectivenessBP = [20, 24]
         ret.lateralTuning.indi.actuatorEffectivenessV = [2, 3]
-        ret.steerActuatorDelay = 0.42 - 0.2
+        
       else:
         set_lat_tune(ret.lateralTuning, LatTunes.TORQUE, MAX_LAT_ACCEL=ret.maxLateralAccel, FRICTION=0.07)
 
